@@ -1,0 +1,106 @@
+$base-color: #FF7518;
+$neutral-color: dynamic(#FFFFFF);
+$neutral-light-color: dynamic(mix(#fff, $neutral-color, 90%));
+//$neutral-light-color: dynamic(#ffffff);
+$neutral-highlight-color: dynamic(mix(#fff, $neutral-color, 60%));
+//$neutral-highlight-color: dynamic(white);
+$neutral-medium-dark-color: dynamic(mix(#000, $neutral-color, 15.2%));
+//$neutral-dark-color: dynamic(mix(#000, $neutral-color, 30.4%));
+$neutral-dark-color: dynamic(black);
+// text color
+$color: dynamic(#000000);
+// lighter text color for use on light backgrounds
+//$highlight-color: dynamic(#606060);
+$highlight-color: dynamic(black);
+// light text color for use on dark backgrounds
+$light-color: dynamic(#f0f0f0);
+$enable-font-icons: dynamic(true);
+
+
+$grid_actioncolumn_icon_glyph_color: #000000;
+$panel_body_background_color: dynamic(#FFFFFF);
+$panel_header_inner_border_color: dynamic(#ffffff);
+$grid_header_menu_glyph_color: dynamic(#000000);
+$grid_row_cell_alt_background_color: dynamic(#fff);
+$grid_row_cell_background_color: dynamic(#f2f2f2);
+$menu_border_color: dynamic(#000000);
+$menu_glyph_color: dynamic(#000000);
+$panel_header_color: dynamic(#ffffff);
+$button_toolbar_border_color: dynamic(#000000);
+//$button_toolbar_border_color_pressed_focus: dynamic(#000000);
+$button_toolbar_inner_border_color_focus_pressed: dynamic(#000000);
+$button_toolbar_inner_border_color_focus: dynamic(#ffffff);
+$splitter_collapse_tool_background_color: dynamic(#000000);
+$splitter_collapse_tool_glyph_color : dynamic(#ffffff);
+
+
+*{
+ > .x-splitter-vertical{
+	background-color: #353834;
+	}
+ > .x-splitter-horizontal{
+	background-color: #353834;
+	}
+ > .x-tab-inner-default{
+		text-overflow: ellipsis;
+	}
+ > .x-tab-inner{
+		text-overflow: ellipsis;
+	}
+ > .post-data{
+		padding-left: 10px;
+		background-image: url(/packages/local/my-contest-theme/resources/images/squairy_light.png);
+		background-repeat: repeat;
+		padding-bottom: 10px;
+		font: 300 13px/19px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+	 	font-weight: bold;
+	    //height:82px;
+	 
+	}
+ > .post-body{
+		padding-left: 10px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		font: 300 13px/19px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+		
+	 > p > a > img{
+	 margin-right:10px;
+	 }
+	 > table > tbody > tr > td:nth-child(2) > font > div:nth-child(3) a{
+		 color: black;
+		 text-decoration: none !important;
+		 
+		 &:hover{
+			 font-size: 19px;
+			 border: 1px solid orange;
+		 }
+	 }
+	 > table > tbody > tr > td:nth-child(1) > font > a > img{
+		 margin-top: 50px;
+	 }
+	 > table > tbody > tr > td:nth-child(1) > font > a{
+		 color: black;
+		 text-decoration: none !important;
+	 }
+	 	
+	 }
+	
+ > .x-grid-item-selected{
+		background-image: url(/packages/local/my-contest-theme/resources/images/squairy_light.png);
+		background-repeat: repeat;
+		
+	}
+ > .x-grid-cell-inner{
+		font-weight:bold;
+		text-overflow: ellipsis;
+	}
+		
+	
+}
+
+
+
+
+
+
+

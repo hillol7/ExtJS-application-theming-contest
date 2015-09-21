@@ -1,0 +1,1 @@
+$("div.post-body > table > tbody > tr > td:nth-child(2) > font > div:nth-child(2)").remove();
